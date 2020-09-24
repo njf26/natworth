@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 40%;
+  margin-bottom: 5%;
 }
 
 #nav a {

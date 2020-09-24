@@ -4,19 +4,21 @@
       <div class="innerBio">
         <img src="../assets/portrait.jpg"/>
         <div class="title">Natalie Farnsworth</div>
-        Computer Science student of fine taste. Respecter of pandemics. Eater of delicious pies. Coder of cool things.
+        Computer Science student of fine taste. Respecter of pandemics. Eater of delicious pies. Coder of things.
       </div>
     </div>
     <div class="resume">
       <div class="aboutMe">About Me</div>
       <div class="about">Studying Computer Science: Software Engineering at Brigham Young University</div>
       <div class="about">Junior expected to graduate April 2022</div>
-      <div class="about">My hobbies (outside of coding) include cooking, singing,
-      enjoying high quality media, and sleeping for profoundly long periods of time.
+      <div class="about">My hobbies include cooking, singing,
+      enjoying high quality media, and sleeping for remarkably long periods of time.
       I also speak Spanish as a second language and I'm currently learning Mandarin.
       My English is probably as good as it's ever gonna get.</div>
-      <div class="about">I've created this website to showcase some projects I've worked on over the past couple of years
-      in school, work, and for fun. You can download my resume <a href="Resume.pdf" download="FarnsworthResume">here</a>.</div>
+      <div class="about">I've created this website to showcase some projects
+      I've worked on over the past couple of years in school, work, and for fun.
+      You can download my resume
+      <a href="Resume.pdf" download="FarnsworthResume">here</a>.</div>
     </div>
   </div>
 </template>

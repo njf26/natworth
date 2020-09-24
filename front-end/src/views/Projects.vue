@@ -13,7 +13,7 @@
         <a href="https://github.com/njf26/bitcoin-ticker-flutter">GitHub</a> for Bitcoin Ticker
       </div>
       <div class="column"><img src="../assets/clima.gif"/>
-        <a href="https://github.com/njf26/clima-flutter">GitHub</a> for BMI Calculator
+        <a href="https://github.com/njf26/clima-flutter">GitHub</a> for Clima Weather
       </div>
     </div>
 
@@ -21,8 +21,11 @@
       <div class="column"><img src="../assets/quizzler.gif"/>
         <a href="https://github.com/njf26/quizzler-flutter">GitHub</a> for Quizzler
       </div>
-      <div class="column"><img src="../assets/magic8ball.gif"/>
-        <a href="https://github.com/njf26/magic-8-ball-flutter">GitHub</a> for Magic 8 Ball
+      <div class="column">
+        <video controls>
+          <source src="../assets/xylophone.mp4" type="video/mp4">
+        </video>
+        <a href="https://github.com/njf26/xylophone-flutter">GitHub</a> for Xylophone
       </div>
       <div class="column"><img src="../assets/todoey.gif"/>
         <a href="https://github.com/njf26/todoey-flutter">GitHub</a> for Todoey
@@ -30,26 +33,22 @@
     </div>
 
     <div class="row">
-      <div class="column">
-        <video controls>
-          <source src="../assets/xylophone.mp4" type="video/mp4">
-        </video>
-        <a href="https://github.com/njf26/xylophone-flutter">GitHub</a> for Xylophone
+      <div class="column"><img src="../assets/knights.gif"/>
+        <a href="https://github.com/njf26/knights.git">GitHub</a> for Knights
       </div>
       <div class="subheader">
         <p>After completing the course I made an original Flutter app called
         Knights. It features a small game to solve.</p>
-        <p>The app times your solving speed and adds it to a worldwide Top 10
-        board of all app users if you solve it fast enough.</p>
-        <p>A user can create an account to have their score associated with their username and keep
-        a record of their own personal best scores.
-        This was implemented using Google Firebase.</p>
-      </div>
-      <div class="column"><img src="../assets/todoey.gif"/>
-        <a href="https://github.com/njf26/todoey-flutter">GitHub</a> for Knights
+        <p>The purpose of the game is to traverse the 8x8 board like a Knight in
+        Chess and mark every spot on the board one time. The app times your
+        solving speed.</p>
+        <p>I'm currently implementing a
+        Google Firebase database to allow users to make accounts that store their
+        top scores.</p>
       </div>
     </div>
 
+<!--
     <div class="row">
       <div class="subheader"><p>
         I've also recently learned how to make a browser extension using the Vue framework.
@@ -60,6 +59,7 @@
         <a href="https://github.com/njf26/todoey-flutter">GitHub</a> for Tab Organizer
       </div>
     </div>
+  -->
 
     <h1>Work</h1>
 
@@ -70,12 +70,20 @@
     <div class="subheader"><p>My team is currently developing an authentication
     system that eliminates the need for passwords.</p></div>
 
-    <div class="row">
+    <div class="row" style="flex-direction: column">
       <div class="column"><img src="../assets/extension.gif"/></div>
-      <div class="subheader"><p>
-        My main contribution is the (ongoing) development of the 1Key browser extension
-        that allows a user to login to websites automatically.
-      </p></div>
+      <div class="subheader" style="width: 60%">
+        <p>
+          My main contribution is the (ongoing) development of the 1Key browser extension
+          that allows a user to login to websites automatically. The browser extension implements various cryptographic functions and
+          interacts with a Client Authority built by the team.
+        </p><p>
+          There are also various pages that show user info such as the list of
+          authenticating devices they have registered under their account, the list
+          of websites that they are registered with using 1Key, and the list of
+          those websites that they are currently logged-in to.
+        </p>
+      </div>
     </div>
 
     <div class="row">
@@ -98,13 +106,13 @@
           <li>Relational Database, built in C++ (Discrete Mathematics)</li>
           <li>Collection of websites on this domain (Web Programming)
             <ul>
-              <li><a href="https://lab1.natworth.com/">Photographer Website</a></li>
-              <li><a href="https://lab3.natworth.com/">Comic Website</a></li>
               <li><a href="https://lab5.natworth.com/">Photo Sharing Website</a></li>
+              <li><a href="https://creative4.natworth.com/">Controversial Question Voting</a></li>
+              <li><a href="https://lab3.natworth.com/">Comic Website</a></li>
+              <li><a href="https://lab1.natworth.com/">Photographer Website</a></li>
               <li><a href="https://creative1.natworth.com/">Procrasis Quesoaris</a></li>
               <li><a href="https://creative2.natworth.com/">Lyric Fetcher</a></li>
               <li><a href="https://creative3.natworth.com/">Restaurant Finder</a></li>
-              <li><a href="https://creative4.natworth.com/">Controversial Question Voting</a></li>
             </ul>
           </li>
           <li>Family History App and Server. This was
@@ -113,7 +121,7 @@
           <li>Implementation of Data Structures such as linked lists, maps, binary search tree, and AVL tree. All built in C++ (Data Structures)</li>
         </ul>
         <p>
-          To prevent overwhelming plagiarism temptation, I have put most of these projects in private GitHub repositories.
+          To prevent plagiarism issues, I have put most of these projects in private GitHub repositories.
           Contact me if you would like Github permission to access these code bases.
         </p>
       </div>
